@@ -1,0 +1,12 @@
+<div class="container">
+  <ejs-grid [dataSource]='data' [allowFiltering]='true' [filterSettings]='filterOptions'
+  #grid>
+    <e-columns>
+      <e-column field='OrderID' headerText='Order ID' textAlign='right' width=90></e-column>
+      <e-column field='CustomerID' headerText='Customer ID' width=120></e-column>
+      <e-column field='Freight' headerText='Freight' textAlign='right' format='C2' width=90 [filter]="{type: 'CheckBox'}"></e-column>
+      <e-column field='OrderDate' headerText='Order Date' textAlign='right' format='yMd' width=120></e-column>
+      <e-column field='ShipCountry' headerText='Ship Country' width=120 [filterBarTemplate]='templateShipCountryDropDown'></e-column>
+    </e-columns>
+  </ejs-grid>
+</div>
