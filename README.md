@@ -1,4 +1,4 @@
-# How to Work with Filtering Options of Angular Data Grid
+# How to Work with Filtering Options in Angular Data Grid
 
 A quick-start project that demonstrates how to enable filtering in the Syncfusion Angular Data Grid. This project includes examples of handling diacritic characters, applying various filter operators and filter types such as Menu, Checkbox, and Excel, setting initial filter conditions, and creating custom filter components using dropdown list for enhanced user interaction.
 
